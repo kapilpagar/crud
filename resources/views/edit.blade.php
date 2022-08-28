@@ -17,7 +17,7 @@
             <input type="text" name="name" class="form-control" value="{{$edit->name}}" ><br>
             <label for="email">Email</label>
             <input type="email" name="email" class="form-control" value="{{$edit->email}}" id=""><br>
-            <input type="btn" class="btn btn-secondary" value="Back">
+            <a href="{{route('index')}}" class="btn btn-secondary">Back</a>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </div>
